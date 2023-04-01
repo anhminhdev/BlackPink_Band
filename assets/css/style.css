@@ -14,6 +14,13 @@ html {
   font-size: 62.5%;
 }
 
+.clear {
+  clear: both;
+}
+
+.text-white {
+  color: white !important;
+}
 
 #header {
   height: 50px;
@@ -108,7 +115,7 @@ html {
   position: relative;
   margin-top: 50px;
   padding-top: 50%;
-  background: url(/assets/imgs/slider1.jpg) top center / cover no-repeat;
+  background: url(/assets/imgs/slider/slider1.jpg) top center / cover no-repeat;
 }
 
 .text-content {
@@ -152,7 +159,7 @@ html {
   font-style: italic;
   font-size: 1.38rem;
   opacity: 0.8;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 #content .about-text {
@@ -166,6 +173,7 @@ html {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 #content .member-item {
@@ -176,7 +184,8 @@ html {
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
-  color: blue;
+  background: -webkit-linear-gradient(blue, aqua);
+  color: white;
 }
 
 #content .member-img {
@@ -192,4 +201,97 @@ html {
   box-shadow: 0 4px 10px 5px #ccc;
 }
 
+/* Tour section */
+.tour-section {
+  background-color: black;
+}
+
+.tickets-list {
+  background-color: #fff;
+  width: 100%;
+  list-style: none;
+}
+
+.tickets-list li {
+  padding: 8px 16px;
+  font-size: 16px;
+  color: #4c4c4cf2;
+  border-bottom: 0.8px solid #ccc;
+}
+
+.sold-out {
+  color: white;
+  background-color: rgb(244, 67, 54);
+  padding: 2px 8px;
+  margin-left: 15px;
+}
+
+.quantity {
+  background-color: black;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 100%;
+  float: right;
+  margin-top: -5px;
+  margin-right: 10px;
+}
+
+/* Places */
+.place-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px 0;
+}
+
+.place-item {
+  width: 31%;
+  background-color: #fff;
+}
+
+.place-list .place-item:first-child {
+  margin-left: -12px;
+}
+
+.place-list .place-item:last-child {
+  margin-right: -12px;
+}
+
+.place-img {
+  width: 100%;
+  height: 190px;
+}
+
+.place-body {
+  padding: 8px 10px;
+}
+
+.place-heading {
+  font-size: 15px;
+  background: -webkit-linear-gradient(orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.place-time {
+  margin: 10px 0;
+  font-size: 13px;
+  color: #666666d6;
+  font-weight: 600;
+}
+
+.place-desc {
+  margin: 13px 0;
+  font-size: small;
+  color: black;
+}
+
+.place-buy-btn {
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  margin-bottom: 16px;
+}
+
+/* Footer section */
 #footer {}
