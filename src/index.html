@@ -8,6 +8,8 @@
   <title>The Band Black Pink</title>
   <!-- Style -->
   <link rel="stylesheet" href="../assets/css/style.css">
+  <!-- Put file responsive.css after file style.css to overriding priority -->
+  <link rel="stylesheet" href="../assets/css/responsive.css">
   <!-- Link Fonts icon-->
   <link rel="icon" href="/assets/imgs/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="../assets/fonts/themify-icons/themify-icons.css">
@@ -39,11 +41,16 @@
       </ul>
       <!-- End: Navbar -->
 
-      <!-- Begin: Search Button -->
+      <!-- Mobile menu btn -->
+      <div class="mobile-menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!-- Search Button -->
       <div class="search-btn">
         <i class="search-icon ti-search"></i>
       </div>
-      <!-- End: Search Button -->
+
     </header>
 
     <div id="slider">
@@ -161,11 +168,11 @@
             </div>
             <div class="contact-body__content-info">
               <i class="fa-solid fa-phone fa-shake"></i>
-              Phone: +84 397923904
+              Phone: <a href="tel:+84 397923904">+84 397923904</a>
             </div>
             <div class="contact-body__content-info">
               <i class="fa-sharp fa-solid fa-envelope"></i>
-              Email: anhminh.dev@mail.com
+              Email: <a href="mailto:">anhminh.dev@mail.com</a>
             </div>
           </div>
 
@@ -241,7 +248,7 @@
     </div>
   </div>
 
-
+  <script src="app.js"></script>
 </body>
 
 </html>
